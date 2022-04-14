@@ -59,6 +59,12 @@
     <Compile Include="CalculatorGUIForm.Designer.cs">
       <DependentUpon>CalculatorGUIForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="QuotientRemainder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuotientRemainder.Designer.cs">
+      <DependentUpon>QuotientRemainder.cs</DependentUpon>
+    </Compile>
     <Compile Include="ReverseString.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,9 @@
     <EmbeddedResource Include="CalculatorGUIForm.resx">
       <DependentUpon>CalculatorGUIForm.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuotientRemainder.resx">
+      <DependentUpon>QuotientRemainder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ReverseString.resx">
       <DependentUpon>ReverseString.cs</DependentUpon>
