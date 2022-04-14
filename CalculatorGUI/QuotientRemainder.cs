@@ -18,8 +18,12 @@ namespace CalculatorGUI
 
         private void solve_Click(object sender, EventArgs e)
         {
-
-        }
+            int dividend = Convert.ToInt32(dividendTextBox.Text);
+            int divisor = Convert.ToInt32(divisorTextBox.Text);
+            int remainder;
+            int quotient = Math.DivRem(dividend, divisor, out remainder);
+            resultDisplay.Text = string.Format(dividend + " divided by " + divisor + " results in " + quotient + " as the quotient and " + remainder + " as the remainder.");
+        }  
 
         private void reset_Click(object sender, EventArgs e)
         {
