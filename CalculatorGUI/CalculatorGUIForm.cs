@@ -9,13 +9,23 @@ using System.Windows.Forms;
 
 namespace CalculatorGUI
 {
-   public partial class CalculatorGUIForm : Form
+    /// <summary>
+    /// This program implements some arithmetic functions as a calculator
+    /// </summary>
+    /// <Student>Dominic Verardi</Student>
+    /// <Class>CIS297</Class>
+    /// <Semester>Winter 2022</Semester>
+    /// 
+
+    // Displays the calculator form and buttons
+    public partial class CalculatorGUIForm : Form
    {
       public CalculatorGUIForm()
       {
          InitializeComponent();
       }
 
+        //Takes you to Remove Whitespace Form
         private void RemoveWhitespace_Click(object sender, EventArgs e)
         {
             RemoveWhitespace removeWhitespace = new RemoveWhitespace();
@@ -24,6 +34,7 @@ namespace CalculatorGUI
             Close();
         }
 
+        //Takes you to Reverse String Form
         private void ReverseString_Click(object sender, EventArgs e)
         {
             ReverseString reverseString = new ReverseString();
@@ -32,6 +43,7 @@ namespace CalculatorGUI
             Close();
         }
 
+        //Takes you to Quotient and Remainder Form
         private void QuotientAndRemainder_Click(object sender, EventArgs e)
         {
             QuotientRemainder quotientAndRemainder = new QuotientRemainder();
@@ -40,6 +52,7 @@ namespace CalculatorGUI
             Close();
         }
 
+        //Takes you to Log Base 10 Form
         private void LogBase10_Click(object sender, EventArgs e)
         {
             LogBase10 logBase10 = new LogBase10();
@@ -48,6 +61,7 @@ namespace CalculatorGUI
             Close();
         }
 
+        //Takes you to Log Base to Any Number Form
         private void LogBaseToNumber_Click(object sender, EventArgs e)
         {
             LogBaseNumber logBaseNumber = new LogBaseNumber();
@@ -56,6 +70,7 @@ namespace CalculatorGUI
             Close();
         }
 
+        //Takes you to Minimum and Maximum Form
         private void MinimumAndMaximum_Click(object sender, EventArgs e)
         {
             MinMax minMax = new MinMax();
@@ -64,6 +79,7 @@ namespace CalculatorGUI
             Close();
         }
 
+        //Takes you to Number to Any Power Form
         private void NumberToPower_Click(object sender, EventArgs e)
         {
             NumberToPower numberToPower = new NumberToPower();
@@ -72,6 +88,7 @@ namespace CalculatorGUI
             Close();
         }
 
+        //Takes you to Roots of Quadratic Form
         private void RootsOfQuadratic_Click(object sender, EventArgs e)
         {
             RootsOfQuad rootsOfQuad = new RootsOfQuad();
@@ -80,6 +97,7 @@ namespace CalculatorGUI
             Close();
         }
 
+        //Takes you to Square Root Form
         private void SquareRoot_Click(object sender, EventArgs e)
         {
             SquareRoot squareRoot = new SquareRoot();

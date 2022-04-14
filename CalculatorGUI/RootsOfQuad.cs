@@ -10,6 +10,13 @@ using System.Windows.Forms;
 
 namespace CalculatorGUI
 {
+    /// <summary>
+    /// This program implements solving finding the roots of the quadratic equation functions to a form
+    /// </summary>
+    /// <Student>Dominic Verardi</Student>
+    /// <Class>CIS297</Class>
+    /// <Semester>Winter 2022</Semester>
+    /// 
     public partial class RootsOfQuad : Form
     {
         public RootsOfQuad()
@@ -17,6 +24,7 @@ namespace CalculatorGUI
             InitializeComponent();
         }
 
+        //Click the solve button to find the roots of the quadratic equation
         private void solve_Click(object sender, EventArgs e)
         {
             int a = Convert.ToInt32(coefficient1TextBox.Text);
@@ -26,6 +34,7 @@ namespace CalculatorGUI
             resultDisplay.Text = quadraticEquation.DisplaySolution();
         }
 
+        //Clear the form
         private void reset_Click(object sender, EventArgs e)
         {
             resultDisplay.Text = "";
@@ -34,6 +43,7 @@ namespace CalculatorGUI
             constantTextBox.Text = "";
         }
 
+        //Go back to Calculator GUI
         private void back_Click(object sender, EventArgs e)
         {
             CalculatorGUIForm calculatorGUI = new CalculatorGUIForm();

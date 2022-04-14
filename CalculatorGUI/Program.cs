@@ -5,7 +5,15 @@ using System.Windows.Forms;
 
 namespace CalculatorGUI
 {
-   static class Program
+    /// <summary>
+    /// This program implements some arithmetic functions as a calculator
+    /// </summary>
+    /// <Student>Dominic Verardi</Student>
+    /// <Class>CIS297</Class>
+    /// <Semester>Winter 2022</Semester>
+    /// 
+
+    static class Program
    {
       /// <summary>
       /// The main entry point for the application.
