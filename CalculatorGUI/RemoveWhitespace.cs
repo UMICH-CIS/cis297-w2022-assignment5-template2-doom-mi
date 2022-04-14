@@ -23,16 +23,16 @@ namespace CalculatorGUI
 
         private void button2_Click(object sender, EventArgs e)
         {
-            CalculatorGUIForm calculatorGUI = new CalculatorGUIForm();
-            Hide();
-            calculatorGUI.ShowDialog();
-            Close();
+            modifiedString.Text = "";
+            yourTextBox.Text = "";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            modifiedString.Text = "";
-            yourTextBox.Text = "";
+            CalculatorGUIForm calculatorGUI = new CalculatorGUIForm();
+            Hide();
+            calculatorGUI.ShowDialog();
+            Close();
         }
     }
 }

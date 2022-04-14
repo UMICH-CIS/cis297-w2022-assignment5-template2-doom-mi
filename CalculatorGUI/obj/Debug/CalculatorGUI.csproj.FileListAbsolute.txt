@@ -23,3 +23,4 @@ C:\Users\Dominic\source\repos\cis297-w2022-assignment5-template2-doom-mi\Calcula
 C:\Users\Dominic\source\repos\cis297-w2022-assignment5-template2-doom-mi\CalculatorGUI\obj\Debug\CalculatorGUI.MinMax.resources
 C:\Users\Dominic\source\repos\cis297-w2022-assignment5-template2-doom-mi\CalculatorGUI\obj\Debug\CalculatorGUI.NumberToPower.resources
 C:\Users\Dominic\source\repos\cis297-w2022-assignment5-template2-doom-mi\CalculatorGUI\obj\Debug\CalculatorGUI.RootsOfQuad.resources
+C:\Users\Dominic\source\repos\cis297-w2022-assignment5-template2-doom-mi\CalculatorGUI\obj\Debug\CalculatorGUI.SquareRoot.resources
