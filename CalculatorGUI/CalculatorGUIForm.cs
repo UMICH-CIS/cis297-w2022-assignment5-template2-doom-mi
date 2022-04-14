@@ -15,7 +15,79 @@ namespace CalculatorGUI
       {
          InitializeComponent();
       }
-   }
+
+        private void RemoveWhitespace_Click(object sender, EventArgs e)
+        {
+            RemoveWhitespace removeWhitespace = new RemoveWhitespace();
+            Hide();
+            removeWhitespace.ShowDialog();
+            Close();
+        }
+
+        private void ReverseString_Click(object sender, EventArgs e)
+        {
+            ReverseString reverseString = new ReverseString();
+            Hide();
+            reverseString.ShowDialog();
+            Close();
+        }
+
+        private void QuotientAndRemainder_Click(object sender, EventArgs e)
+        {
+            QuotientRemainder quotientAndRemainder = new QuotientRemainder();
+            Hide();
+            quotientAndRemainder.ShowDialog();
+            Close();
+        }
+
+        private void LogBase10_Click(object sender, EventArgs e)
+        {
+            LogBase10 logBase10 = new LogBase10();
+            Hide();
+            logBase10.ShowDialog();
+            Close();
+        }
+
+        private void LogBaseToNumber_Click(object sender, EventArgs e)
+        {
+            LogBaseNumber logBaseNumber = new LogBaseNumber();
+            Hide();
+            logBaseNumber.ShowDialog();
+            Close();
+        }
+
+        private void MinimumAndMaximum_Click(object sender, EventArgs e)
+        {
+            MinMax minMax = new MinMax();
+            Hide();
+            minMax.ShowDialog();
+            Close();
+        }
+
+        private void NumberToPower_Click(object sender, EventArgs e)
+        {
+            NumberToPower numberToPower = new NumberToPower();
+            Hide();
+            numberToPower.ShowDialog();
+            Close();
+        }
+
+        private void RootsOfQuadratic_Click(object sender, EventArgs e)
+        {
+            RootsOfQuad rootsOfQuad = new RootsOfQuad();
+            Hide();
+            rootsOfQuad.ShowDialog();
+            Close();
+        }
+
+        private void SquareRoot_Click(object sender, EventArgs e)
+        {
+            SquareRoot squareRoot = new SquareRoot();
+            Hide();
+            squareRoot.ShowDialog();
+            Close();
+        }
+    }
 }
 
 /**************************************************************************
