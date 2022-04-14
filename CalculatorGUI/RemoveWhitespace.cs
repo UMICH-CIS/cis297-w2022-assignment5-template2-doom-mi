@@ -24,9 +24,9 @@ namespace CalculatorGUI
         private void button2_Click(object sender, EventArgs e)
         {
             CalculatorGUIForm calculatorGUI = new CalculatorGUIForm();
-            this.Hide();
+            Hide();
             calculatorGUI.ShowDialog();
-            this.Close();
+            Close();
         }
 
         private void button3_Click(object sender, EventArgs e)
