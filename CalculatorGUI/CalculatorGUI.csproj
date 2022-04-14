@@ -59,6 +59,12 @@
     <Compile Include="CalculatorGUIForm.Designer.cs">
       <DependentUpon>CalculatorGUIForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="LogBaseNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogBaseNumber.Designer.cs">
+      <DependentUpon>LogBaseNumber.cs</DependentUpon>
+    </Compile>
     <Compile Include="LogBase10.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,9 @@
     <EmbeddedResource Include="CalculatorGUIForm.resx">
       <DependentUpon>CalculatorGUIForm.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogBaseNumber.resx">
+      <DependentUpon>LogBaseNumber.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LogBase10.resx">
       <DependentUpon>LogBase10.cs</DependentUpon>

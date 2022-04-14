@@ -35,14 +35,14 @@ namespace CalculatorGUI
             this.dividendTextBox = new System.Windows.Forms.TextBox();
             this.divisorTextBox = new System.Windows.Forms.TextBox();
             this.dividend = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.divisor = new System.Windows.Forms.Label();
             this.result = new System.Windows.Forms.Label();
             this.resultDisplay = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // back
             // 
-            this.back.Location = new System.Drawing.Point(246, 95);
+            this.back.Location = new System.Drawing.Point(381, 95);
             this.back.Name = "back";
             this.back.Size = new System.Drawing.Size(75, 23);
             this.back.TabIndex = 12;
@@ -52,7 +52,7 @@ namespace CalculatorGUI
             // 
             // reset
             // 
-            this.reset.Location = new System.Drawing.Point(246, 66);
+            this.reset.Location = new System.Drawing.Point(381, 64);
             this.reset.Name = "reset";
             this.reset.Size = new System.Drawing.Size(75, 23);
             this.reset.TabIndex = 11;
@@ -62,7 +62,7 @@ namespace CalculatorGUI
             // 
             // solve
             // 
-            this.solve.Location = new System.Drawing.Point(246, 28);
+            this.solve.Location = new System.Drawing.Point(381, 29);
             this.solve.Name = "solve";
             this.solve.Size = new System.Drawing.Size(75, 23);
             this.solve.TabIndex = 10;
@@ -93,14 +93,14 @@ namespace CalculatorGUI
             this.dividend.TabIndex = 15;
             this.dividend.Text = "Dividend";
             // 
-            // label2
+            // divisor
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(48, 71);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(39, 13);
-            this.label2.TabIndex = 16;
-            this.label2.Text = "Divisor";
+            this.divisor.AutoSize = true;
+            this.divisor.Location = new System.Drawing.Point(48, 71);
+            this.divisor.Name = "divisor";
+            this.divisor.Size = new System.Drawing.Size(39, 13);
+            this.divisor.TabIndex = 16;
+            this.divisor.Text = "Divisor";
             // 
             // result
             // 
@@ -123,10 +123,10 @@ namespace CalculatorGUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(341, 167);
+            this.ClientSize = new System.Drawing.Size(480, 142);
             this.Controls.Add(this.resultDisplay);
             this.Controls.Add(this.result);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.divisor);
             this.Controls.Add(this.dividend);
             this.Controls.Add(this.divisorTextBox);
             this.Controls.Add(this.dividendTextBox);
@@ -148,7 +148,7 @@ namespace CalculatorGUI
         private System.Windows.Forms.TextBox dividendTextBox;
         private System.Windows.Forms.TextBox divisorTextBox;
         private System.Windows.Forms.Label dividend;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label divisor;
         private System.Windows.Forms.Label result;
         private System.Windows.Forms.Label resultDisplay;
     }

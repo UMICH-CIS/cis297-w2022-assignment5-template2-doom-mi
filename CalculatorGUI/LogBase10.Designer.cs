@@ -40,7 +40,7 @@ namespace CalculatorGUI
             // 
             // back
             // 
-            this.back.Location = new System.Drawing.Point(221, 88);
+            this.back.Location = new System.Drawing.Point(296, 88);
             this.back.Name = "back";
             this.back.Size = new System.Drawing.Size(75, 23);
             this.back.TabIndex = 15;
@@ -50,7 +50,7 @@ namespace CalculatorGUI
             // 
             // reset
             // 
-            this.reset.Location = new System.Drawing.Point(221, 59);
+            this.reset.Location = new System.Drawing.Point(296, 59);
             this.reset.Name = "reset";
             this.reset.Size = new System.Drawing.Size(75, 23);
             this.reset.TabIndex = 14;
@@ -60,7 +60,7 @@ namespace CalculatorGUI
             // 
             // solve
             // 
-            this.solve.Location = new System.Drawing.Point(221, 21);
+            this.solve.Location = new System.Drawing.Point(296, 20);
             this.solve.Name = "solve";
             this.solve.Size = new System.Drawing.Size(75, 23);
             this.solve.TabIndex = 13;
@@ -105,7 +105,7 @@ namespace CalculatorGUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(315, 139);
+            this.ClientSize = new System.Drawing.Size(417, 139);
             this.Controls.Add(this.logDisplay);
             this.Controls.Add(this.result);
             this.Controls.Add(this.logLabel);
