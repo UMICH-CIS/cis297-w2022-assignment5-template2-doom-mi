@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CalculatorGUI.CalculatorGUIForm" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACgAAAAAAaIAAACRAACAAIKCBcw7gAAocEAIQAAQQEA=</HashCode>
+      <FileName>CalculatorGUIForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorGUI.LogBase10" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQEEACAAAAYABACAAAACAAgACAAAAIAAAAAAACA=</HashCode>
+      <FileName>LogBase10.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorGUI.LogBaseNumber" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAQEEACIAAAQQBgCAAAACAAgACAAAAIAAAAAAAAA=</HashCode>
+      <FileName>LogBaseNumber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorGUI.MinMax" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAYEEACAAgAAQBACAAAACAAgACAAAAIAAAAABAAA=</HashCode>
+      <FileName>MinMax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorGUI.NumberToPower" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAQEEACAAAAAQBACAAAACAAgACAAAhIAAQAAAAAA=</HashCode>
+      <FileName>NumberToPower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorGUI.Program" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorGUI.QuotientRemainder" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQQEMACAAAAAQBACAAAACAQgACAABAIAAAAAAAAA=</HashCode>
+      <FileName>QuotientRemainder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorGUI.RemoveWhitespace" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKAAEEACAAAAAEAAGAAAACAAAAAAAAAHgAAAAAAAA=</HashCode>
+      <FileName>RemoveWhitespace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorGUI.ReverseString" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKABEEACAAAAAAAAGAAAACAAgAAAIAAIgAAAAAAAA=</HashCode>
+      <FileName>ReverseString.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorGUI.RootsOfQuad" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQEEACAAAAAQBCCAQAACACgACAAAAIAIAAAAAAA=</HashCode>
+      <FileName>RootsOfQuad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorGUI.SquareRoot" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQEFACAAACAABACAAAACAAgACAAAAJAAAAAAAAA=</HashCode>
+      <FileName>SquareRoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorGUI.Properties.Resources" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorGUI.Properties.Settings" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleQuadraticEquation.QuadraticEquation1" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAAAAACAAAAEBAAAAAIAAAAAAAAAAoAEAAAQ=</HashCode>
+      <FileName>QuadraticEquation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleQuadraticEquation.QuadraticEquation2" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAAAAACAAAAEBAAAAAIAAAAAAAAAAoAEAAAQ=</HashCode>
+      <FileName>QuadraticEquation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleQuadraticEquation.QuadraticEquation3" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAAAAACAAAAEBAAAAAIAAAAAAAAAAoAEAAAQ=</HashCode>
+      <FileName>QuadraticEquation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleQuadraticEquation.QuadraticEquation4" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAUAAAAAgAAAACAAACEBAAAAAIAAAAAAAAAAoAEAAAQ=</HashCode>
+      <FileName>QuadraticEquation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
